@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>guaitaGBXML</title><meta name="description" content="guaitaGBXML — visor i analitzador de fitxers gbXML"><link rel="icon" type="image/png" href="icons/icon-192.png"><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0E1116"><link rel="alternate" hreflang="ca" href="pageCAT/index.html"><link rel="alternate" hreflang="en" href="pagesENG/index.html"><style>
+:root{--bg:#0E1116;--text:#E7EAEE;--text-dim:#8B939F;--accent:#D6FB41;--border-strong:#4A5361;--bg-surface:#1E232B;--on-accent:#1A2000}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.6 'IBM Plex Sans',system-ui,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px 20px;box-sizing:border-box}
+.brand{font:900 20px 'Arial Black',system-ui,sans-serif;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent);display:flex;justify-content:center;align-items:center;gap:10px}
+.brand small{font:500 11px 'IBM Plex Mono',monospace;letter-spacing:2px;color:var(--text-dim);text-transform:lowercase}
+.cells{display:inline-grid;grid-template-columns:13px 13px;gap:3px}.cells span{display:block;width:13px;height:13px}
+.cells span:nth-child(1){background:#D6FB41}.cells span:nth-child(2){background:#FF2ECC}.cells span:nth-child(3){background:#00E5FF}.cells span:nth-child(4){background:#FFE500}
+h1{margin:10px 0 6px;font-size:34px}
+.btns{display:flex;gap:10px;justify-content:center;margin-top:22px;flex-wrap:wrap}
+.btn{display:inline-block;padding:9px 16px;border:1px solid var(--border-strong);border-radius:5px;color:var(--text);text-decoration:none;font-weight:600;background:var(--bg-surface)}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+p.small{margin-top:28px;font-size:12.5px;color:var(--text-dim)}p.small a{color:var(--accent)}
+</style></head><body><div>
+<div class="brand"><span class="cells"><span></span><span></span><span></span><span></span></span> GUAITA<small>gbxml</small></div>
+<h1>guaitaGBXML</h1>
+<p>Tria idioma · Choose language</p>
+<div class="btns"><a class="btn pri" href="pageCAT/index.html">Català</a><a class="btn pri" href="pagesENG/index.html">English</a></div>
+<p class="small"><a href="app/guaitaGBXML.html">App</a> · <a href="https://github.com/subi2/guaitaGBxml">GitHub</a> · AGPL-3.0-only · SBS BIM Consulting 2026</p>
+</div>
+<script>(function(){try{if(location.search.indexOf('stay')>-1)return;var l=(navigator.language||'ca').toLowerCase();if(l.indexOf('ca')===0)location.replace('pageCAT/index.html');else if(l.indexOf('en')===0)location.replace('pagesENG/index.html')}catch(e){}})();</script>
+</body></html>
